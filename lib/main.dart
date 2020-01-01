@@ -41,7 +41,9 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(),
+          SizedBox(
+            width: MediaQuery.of(context).size.height * 0.05,
+          ),
           Container(
             margin:
                 EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.92),
