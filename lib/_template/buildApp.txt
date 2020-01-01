@@ -1,0 +1,192 @@
+flutter build apk --split-per-abi
+
+ Container(
+            margin:
+                EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.1),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    "Tutorial Produktif TKJ",
+                    style: TextStyle(
+                      fontSize: 30,
+                      fontFamily: "Montserrat",
+                      fontWeight: FontWeight.w600,
+                    ),
+                    textAlign: TextAlign.center,
+                    maxLines: 2,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Center(
+            child: SizedBox(
+              height: MediaQuery.of(context).size.height * 0.6,
+              width: MediaQuery.of(context).size.width * 0.8,
+              child: Card(
+                elevation: 2,
+                child: Stack(
+                  children: <Widget>[
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color(0xFFD70751),
+                        borderRadius: BorderRadiusDirectional.circular(4),
+                      ),
+                    ),
+                    Container(
+                      height: MediaQuery.of(context).size.height * 0.3,
+                      width: MediaQuery.of(context).size.width * 0.8,
+                      decoration: BoxDecoration(
+                        // color: Color(0xFFD70751),
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(4),
+                          topRight: Radius.circular(4),
+                        ),
+                      ),
+                      child: Material(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(4),
+                          topRight: Radius.circular(4),
+                        ),
+                        color: Colors.transparent,
+                        child: InkWell(
+                          highlightColor: Color(0xFF765d69),
+                          borderRadius: BorderRadius.only(
+                            topLeft: Radius.circular(4),
+                            topRight: Radius.circular(4),
+                          ),
+                          child: Center(
+                            child: Container(
+                              width: MediaQuery.of(context).size.width * 0.5,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    image:
+                                        AssetImage("assets/images/debian.png"),
+                                    fit: BoxFit.scaleDown),
+                              ),
+                            ),
+                          ),
+                          onTap: () {
+                            print("Debian 9 Clicked");
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return DebianPage();
+                                },
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(
+                          top: MediaQuery.of(context).size.height * 0.3),
+                      height: MediaQuery.of(context).size.height * 0.3,
+                      width: MediaQuery.of(context).size.width * 0.8,
+                      decoration: BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(4),
+                          bottomRight: Radius.circular(4),
+                        ),
+                      ),
+                      child: Material(
+                        borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(4),
+                          bottomRight: Radius.circular(4),
+                        ),
+                        color: Colors.transparent,
+                        child: InkWell(
+                          highlightColor: Color(0xFF765d69),
+                          splashColor: Color(0xFF765d69),
+                          borderRadius: BorderRadius.only(
+                            bottomLeft: Radius.circular(4),
+                            bottomRight: Radius.circular(4),
+                          ),
+                          child: Center(
+                            child: Container(
+                              width: MediaQuery.of(context).size.width * 0.6,
+                              decoration: BoxDecoration(
+                                color: Colors.transparent,
+                                image: DecorationImage(
+                                    image: AssetImage(
+                                        "assets/images/mikrotik.png"),
+                                    fit: BoxFit.scaleDown),
+                              ),
+                            ),
+                          ),
+                          onTap: () {
+                            print("Mikrotik Clicked");
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return MikrotikPage();
+                                },
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Container(
+            margin:
+                EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.92),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  "Ilham Adiputra @ TKJ SMKN 1 Kota Solok",
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.blue,
+                    fontFamily: "Montserrat",
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Container(
+            margin:
+                EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.95),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  "With the spirit of learning",
+                  style: TextStyle(
+                    fontSize: 10,
+                    color: Colors.blue,
+                    fontFamily: "Montserrat",
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Container(
+            margin:
+                EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.97),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  "2019/2020",
+                  style: TextStyle(
+                    fontSize: 10,
+                    color: Colors.blue,
+                    fontFamily: "Montserrat",
+                  ),
+                ),
+              ],
+            ),
+          ),

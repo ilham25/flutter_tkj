@@ -1,0 +1,249 @@
+name: tutorial_tkj
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  # General - Assets
+  - assets/images/pattern.jpg
+  - assets/images/debian.png
+  - assets/images/mikrotik.png
+  - assets/images/mikrotik2.png
+  - assets/images/tesGambar.png
+
+  # Debian - IP Address page assets
+  - assets/images/debian/ip_img/ip_img1.png
+  - assets/images/debian/ip_img/ip_img2.png
+  - assets/images/debian/ip_img/ip_img3.png
+
+  # Debian - Web Server page assets
+  - assets/images/debian/webserv_img/webserv_img1.png
+
+  # Debian - DNS / Bind9 page assets
+  - assets/images/debian/dns_img/dns_img1.png
+  - assets/images/debian/dns_img/dns_img2.png
+  - assets/images/debian/dns_img/dns_img3.png
+  - assets/images/debian/dns_img/dns_img4.png
+  - assets/images/debian/dns_img/dns_img5.png
+  - assets/images/debian/dns_img/dns_img6.png
+  - assets/images/debian/dns_img/dns_img7.png
+  - assets/images/debian/dns_img/dns_img8.png
+  - assets/images/debian/dns_img/dns_img9.png
+  - assets/images/debian/dns_img/dns_img10.png
+  - assets/images/debian/dns_img/dns_img11.png
+
+  # Debian - FTP page assets
+  - assets/images/debian/ftp_img/ftp_img1.png
+  - assets/images/debian/ftp_img/ftp_img2.png
+  - assets/images/debian/ftp_img/ftp_img3.png
+  - assets/images/debian/ftp_img/ftp_img4.png
+  - assets/images/debian/ftp_img/ftp_img5.png
+  - assets/images/debian/ftp_img/ftp_img6.png
+  - assets/images/debian/ftp_img/ftp_img7.png
+  - assets/images/debian/ftp_img/ftp_img8.png
+  - assets/images/debian/ftp_img/ftp_img9.png
+  - assets/images/debian/ftp_img/ftp_img10.png
+  - assets/images/debian/ftp_img/ftp_img11.png
+  - assets/images/debian/ftp_img/ftp_img12.png
+  - assets/images/debian/ftp_img/ftp_img13.png
+  - assets/images/debian/ftp_img/ftp_img14.png
+  - assets/images/debian/ftp_img/ftp_img15.png
+
+  # Debian - MySQL / phpmyadmin page assets
+  - assets/images/debian/mysql_img/mysql_img1.png
+  - assets/images/debian/mysql_img/mysql_img2.png
+  - assets/images/debian/mysql_img/mysql_img3.png
+  - assets/images/debian/mysql_img/mysql_img4.png
+  - assets/images/debian/mysql_img/mysql_img5.png
+  - assets/images/debian/mysql_img/mysql_img6.png
+  - assets/images/debian/mysql_img/mysql_img7.png
+  - assets/images/debian/mysql_img/mysql_img8.png
+  - assets/images/debian/mysql_img/mysql_img9.png
+  - assets/images/debian/mysql_img/mysql_img10.png
+
+  # Debian - CMS page assets
+  - assets/images/debian/cms_img/cms_img1.png
+  - assets/images/debian/cms_img/cms_img2.png
+  - assets/images/debian/cms_img/cms_img3.png
+  - assets/images/debian/cms_img/cms_img4.png
+  - assets/images/debian/cms_img/cms_img5.png
+  - assets/images/debian/cms_img/cms_img6.png
+  - assets/images/debian/cms_img/cms_img7.png
+  - assets/images/debian/cms_img/cms_img8.png
+  - assets/images/debian/cms_img/cms_img9.png
+  - assets/images/debian/cms_img/cms_img10.png
+  - assets/images/debian/cms_img/cms_img11.png
+  - assets/images/debian/cms_img/cms_img12.png
+  - assets/images/debian/cms_img/cms_img13.png
+  - assets/images/debian/cms_img/cms_img14.png
+  - assets/images/debian/cms_img/cms_img15.png
+  - assets/images/debian/cms_img/cms_img16.png
+  - assets/images/debian/cms_img/cms_img17.png
+  - assets/images/debian/cms_img/cms_img18.png
+
+  # Debian - SSH page assets 
+  - assets/images/debian/ssh_img/ssh_img1.png
+  - assets/images/debian/ssh_img/ssh_img2.png
+  - assets/images/debian/ssh_img/ssh_img3.png
+  - assets/images/debian/ssh_img/ssh_img4.png
+  - assets/images/debian/ssh_img/ssh_img5.png
+  - assets/images/debian/ssh_img/ssh_img6.png
+  - assets/images/debian/ssh_img/ssh_img7.png
+  - assets/images/debian/ssh_img/ssh_img8.png
+  - assets/images/debian/ssh_img/ssh_img9.png
+  - assets/images/debian/ssh_img/ssh_img10.png
+
+  # Debian - Mail Server page assets
+  - assets/images/debian/mailserv_img/mailserv_img1.png
+  - assets/images/debian/mailserv_img/mailserv_img2.png
+  - assets/images/debian/mailserv_img/mailserv_img3.png
+  - assets/images/debian/mailserv_img/mailserv_img4.png
+  - assets/images/debian/mailserv_img/mailserv_img5.png
+  - assets/images/debian/mailserv_img/mailserv_img6.png
+  - assets/images/debian/mailserv_img/mailserv_img7.png
+  - assets/images/debian/mailserv_img/mailserv_img8.png
+  - assets/images/debian/mailserv_img/mailserv_img9.png
+  - assets/images/debian/mailserv_img/mailserv_img10.png
+  - assets/images/debian/mailserv_img/mailserv_img11.png
+  - assets/images/debian/mailserv_img/mailserv_img12.png
+  - assets/images/debian/mailserv_img/mailserv_img13.png
+  - assets/images/debian/mailserv_img/mailserv_img14.png
+  - assets/images/debian/mailserv_img/mailserv_img15.png
+  - assets/images/debian/mailserv_img/mailserv_img16.png
+  - assets/images/debian/mailserv_img/mailserv_img17.png
+  - assets/images/debian/mailserv_img/mailserv_img18.png
+  - assets/images/debian/mailserv_img/mailserv_img19.png
+  - assets/images/debian/mailserv_img/mailserv_img20.png
+  - assets/images/debian/mailserv_img/mailserv_img21.png
+  - assets/images/debian/mailserv_img/mailserv_img22.png
+  - assets/images/debian/mailserv_img/mailserv_img23.png
+  - assets/images/debian/mailserv_img/mailserv_img24.png
+  - assets/images/debian/mailserv_img/mailserv_img25.png
+  - assets/images/debian/mailserv_img/mailserv_img26.png
+  - assets/images/debian/mailserv_img/mailserv_img27.png
+  - assets/images/debian/mailserv_img/mailserv_img28.png
+  - assets/images/debian/mailserv_img/mailserv_img29.png
+  - assets/images/debian/mailserv_img/mailserv_img30.png
+  - assets/images/debian/mailserv_img/mailserv_img31.png
+  - assets/images/debian/mailserv_img/mailserv_img32.png
+  - assets/images/debian/mailserv_img/mailserv_img33.png
+  - assets/images/debian/mailserv_img/mailserv_img34.png
+  - assets/images/debian/mailserv_img/mailserv_img35.png
+  - assets/images/debian/mailserv_img/mailserv_img36.png
+  - assets/images/debian/mailserv_img/mailserv_img37.png
+  - assets/images/debian/mailserv_img/mailserv_img38.png
+  - assets/images/debian/mailserv_img/mailserv_img39.png
+
+  # Debian - Webmail page assets
+  - assets/images/debian/webmail_img/webmail_img1.png
+  - assets/images/debian/webmail_img/webmail_img2.png
+  - assets/images/debian/webmail_img/webmail_img3.png
+  - assets/images/debian/webmail_img/webmail_img4.png
+  - assets/images/debian/webmail_img/webmail_img5.png
+  - assets/images/debian/webmail_img/webmail_img6.png
+  - assets/images/debian/webmail_img/webmail_img7.png
+  - assets/images/debian/webmail_img/webmail_img8.png
+  - assets/images/debian/webmail_img/webmail_img9.png
+  - assets/images/debian/webmail_img/webmail_img10.png
+  - assets/images/debian/webmail_img/webmail_img11.png
+  - assets/images/debian/webmail_img/webmail_img12.png
+  - assets/images/debian/webmail_img/webmail_img13.png
+  - assets/images/debian/webmail_img/webmail_img14.png
+  - assets/images/debian/webmail_img/webmail_img15.png
+  - assets/images/debian/webmail_img/webmail_img16.png
+  - assets/images/debian/webmail_img/webmail_img17.png
+  - assets/images/debian/webmail_img/webmail_img18.png
+  - assets/images/debian/webmail_img/webmail_img19.png
+  - assets/images/debian/webmail_img/webmail_img20.png
+  - assets/images/debian/webmail_img/webmail_img21.png
+  - assets/images/debian/webmail_img/webmail_img22.png
+  - assets/images/debian/webmail_img/webmail_img23.png
+  - assets/images/debian/webmail_img/webmail_img24.png
+  - assets/images/debian/webmail_img/webmail_img25.png
+  - assets/images/debian/webmail_img/webmail_img26.png
+  - assets/images/debian/webmail_img/webmail_img27.png
+  - assets/images/debian/webmail_img/webmail_img28.png
+  - assets/images/debian/webmail_img/webmail_img29.png
+  - assets/images/debian/webmail_img/webmail_img30.png
+  - assets/images/debian/webmail_img/webmail_img31.png
+  - assets/images/debian/webmail_img/webmail_img32.png
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/nunito/Nunito-Regular.ttf
+        - asset: fonts/nunito/Nunito-Light.ttf
+          weight: 300
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/Montserrat-Regular.ttf
+        - asset: fonts/montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: fonts/montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
